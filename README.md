@@ -46,11 +46,11 @@ The model is compiled with the Adam optimizer, sparse categorical cross-entropy 
 |  ------------ |  -------------------- |  ----------- |
 |  Conv2D       |  (None, 30, 30, 32)   |  896         |
 |  MaxPooling2D |  (None, 15, 15, 32)   |  0           |
-|  Conv2D       |  (None, 13, 13, 64)	  |  18496       |
+|  Conv2D       |  (None, 13, 13, 64)	 |  18496       |
 |  MaxPooling2D |  (None, 6, 6, 64)     |  0           |
-|  Conv2D	      |  (None, 4, 4, 64)	    |  36928       |
-|  Dense        |  (None, 64)	          |  	65600      |
-|  Dense        |  (None, 10)           |  	650        |
+|  Conv2D	    |  (None, 4, 4, 64)	    |  36928       |
+|  Dense        |  (None, 64)	          |  	65600     |
+|  Dense        |  (None, 10)           |  	650       |
 
 ## Installation
 
@@ -65,7 +65,7 @@ The model is compiled with the Adam optimizer, sparse categorical cross-entropy 
 ## Usage
 Run the main program to train and evaluate the model:
 
-    python Convolutional-Neural-Network.py
+    python CNN.py
 
 
 ### Visualizing Sample Images
