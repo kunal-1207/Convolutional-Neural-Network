@@ -1,4 +1,4 @@
-# Convolutional-Neural-Network-
+# Convolutional-Neural-Network
 This project is an advanced image classification model built with TensorFlow, demonstrating the use of a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 categories: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, and truck. The model achieves high accuracy through a layered CNN architecture, which is trained, validated, and evaluated on CIFAR-10 images.
 
 ## Table of Content
